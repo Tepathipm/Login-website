@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background': "url('/background.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
+    },
   },
   plugins: [],
 }
